@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #0f0f14;
+  color: #f0f0f5;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #FF6B35 0%, #FF3D7F 50%, #7B2FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #FF6B35 0%, #FF3D7F 50%, #7B2FFF 100%);
+}
+
+.btn-gradient {
+  background: linear-gradient(135deg, #FF6B35 0%, #FF3D7F 50%, #7B2FFF 100%);
+  color: white;
+  border: none;
+  transition: opacity 0.2s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(135deg, #e55a28 0%, #e6326f 50%, #6a24e0 100%);
+}
+
+.card-tech {
+  background: linear-gradient(145deg, #1a1a24 0%, #14141c 100%);
+  border: 1px solid #2a2a3a;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card-tech:hover {
+  border-color: #FF3D7F;
+  transform: translateY(-2px);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1a1a24;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #3a3a5a;
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #5a5a7a;
+}
