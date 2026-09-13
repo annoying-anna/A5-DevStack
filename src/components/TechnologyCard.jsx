@@ -42,7 +42,9 @@ export default function TechnologyCard({ tech, isInStack, onAdd, onRemove }) {
       </div>
 
       {/* Name */}
-      <h3 className="text-xl font-bold text-white">{tech.name}</h3>
+      <h3 className="text-xl font-bold text-white flex items-center gap-2">
+        {tech.name}
+      </h3>
 
       {/* Description */}
       <p className="text-gray-400 text-sm leading-relaxed flex-1">
