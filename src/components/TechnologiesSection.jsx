@@ -6,7 +6,7 @@ export default function TechnologiesSection({ technologies, stack, onAddToStack,
       <section id="technologies" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center py-20">
-            <div className="inline-block w-12 h-12 border-4 border-brand-pink border-t-transparent rounded-full animate-spin mb-4"></div>
+            <div className="inline-block w-12 h-12 border-4 border-pink-500 border-t-transparent rounded-full animate-spin mb-4"></div>
             <p className="text-gray-400 text-lg">Loading technologies...</p>
           </div>
         </div>
