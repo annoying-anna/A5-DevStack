@@ -29,8 +29,8 @@ This project demonstrates core React concepts including JSX, props drilling, com
 
 ## 📤 Deployment
 
-- **Live Site**: https://polite-cupcake-7f1307.netlify.app (Password: My-Drop-Site)
-- **GitHub Repository**: (add your repo link here)
+- **Live Site**: https://annoying-anna.github.io/A5-DevStack/
+- **GitHub Repository**: https://github.com/annoying-anna/A5-DevStack
 
 ---
 
