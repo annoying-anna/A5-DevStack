@@ -34,9 +34,10 @@ export default function Navbar({ mobileMenuOpen, setMobileMenuOpen }) {
               <a
                 key={link}
                 href={`#${link.toLowerCase()}`}
-                className="text-gray-400 hover:text-white text-sm font-medium transition-colors duration-200"
+                className="text-gray-400 hover:text-white text-sm font-medium transition-colors duration-200 relative group"
               >
                 {link}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 gradient-bg group-hover:w-full transition-all duration-200"></span>
               </a>
             ))}
           </div>
