@@ -6,7 +6,7 @@ export default function YourStack({ stack, onRemove, onRemoveAll }) {
       : `${count} Technolog${count === 1 ? 'y' : 'ies'} Selected`
 
   return (
-    <div className="sticky top-24 bg-[#14141c] border border-white/10 rounded-2xl p-6 max-h-[calc(100vh-8rem)] flex flex-col">
+    <div className="sticky top-24 bg-[#14141c] border border-white/10 rounded-2xl p-6 max-h-[calc(100vh-8rem)] flex flex-col shadow-xl shadow-black/20">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-xl font-bold text-white">{labelText}</h2>
         {count > 0 && (
