@@ -17,10 +17,10 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
               href="#technologies"
-              className="btn-gradient text-white font-semibold px-8 py-3 rounded-full text-base hover:opacity-90 transition-opacity inline-flex items-center justify-center gap-2"
+              className="btn-gradient text-white font-semibold px-8 py-3 rounded-full text-base hover:opacity-90 transition-opacity inline-flex items-center justify-center gap-2 group"
             >
               Explore Technologies
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
             </a>
