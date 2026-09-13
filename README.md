@@ -29,7 +29,7 @@ This project demonstrates core React concepts including JSX, props drilling, com
 
 ## 📤 Deployment
 
-- **Live Site**: https://polite-cupcake-7f1307.netlify.app
+- **Live Site**: https://polite-cupcake-7f1307.netlify.app (Password: My-Drop-Site)
 - **GitHub Repository**: (add your repo link here)
 
 ---
