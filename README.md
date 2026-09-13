@@ -27,6 +27,13 @@ This project demonstrates core React concepts including JSX, props drilling, com
 
 ---
 
+## 📤 Deployment
+
+- **Live Site**: https://meek-taffy-789b84.netlify.app
+- **GitHub Repository**: (add your repo link here)
+
+---
+
 ## ❓ React Questions & Answers
 
 ### 1. What is JSX, and why is it used in React?
